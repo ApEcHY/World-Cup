@@ -37,6 +37,17 @@ header {
     width: 50%;
 }
 
+.btn {
+    text-decoration: none;
+    background-color: #fff;
+    color: black;
+}
+
+.btn:hover {
+    background-color: red;
+    color: white;
+}
+
 .image {
     margin: 70px 0px;
     padding: 150px;
@@ -45,59 +56,44 @@ header {
 }
 
 #input-tag {
-    margin: 70px;
+    margin: 70px 0px;
     display: flex;
 
 }
 
-#contain {
+.container-2 {
+    width: 100%;
+    display: flex;
+
+    margin-top: 40px;
+}
+
+.half-div {
+    width: 50%;
+
+}
+
+.half-div a {
     width: 50%;
 }
 
+.flex {
+    display: flex;
+}
+
 .input {
-    width: 20%;
+    width: 80%;
     background-color: black;
     margin: 10px;
-    padding: 10px 0px;
+    padding: 20px 0px;
     border-radius: 10px;
 }
 
-.input input {
+.input a {
     display: block;
     text-align: center;
     width: 50%;
     padding: 20px 10px;
     margin: 20px auto;
     border-radius: 10px;
-}
-
-.kire {
-    display: flex;
-}
-
-.to {
-    box-shadow: #e4e1e1 5px 5px 5px;
-    padding: 30px 0px;
-}
-
-.TOTO {
-    display: flex;
-    margin: 10px 10px;
-}
-
-.to h1 {
-    font-size: 20px;
-}
-
-.to img {
-    margin-top: 20px;
-}
-
-.to h2 {
-    width: 70%;
-    margin: 30px;
-}
-
-.second-play {
-    display: flex;
 }
