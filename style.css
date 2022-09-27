@@ -46,6 +46,12 @@ header {
 
 #input-tag {
     margin: 70px;
+    display: flex;
+
+}
+
+#contain {
+    width: 50%;
 }
 
 .input {
@@ -90,4 +96,8 @@ header {
 .to h2 {
     width: 70%;
     margin: 30px;
+}
+
+.second-play {
+    display: flex;
 }
